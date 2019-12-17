@@ -5,11 +5,13 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "pod-install": "cd ./ios && pod install && ./fix.sh && cd ../"
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.6"
+    "react-native": "0.60.6",
+    "react-viro": "2.17.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",

@@ -79,6 +79,8 @@ PODS:
     - React-Core (= 0.60.6)
   - React-RCTWebSocket (0.60.6):
     - React-Core (= 0.60.6)
+  - ViroKit_static_lib (1.0)
+  - ViroReact (1.0)
   - yoga (0.60.6.React)
 
 DEPENDENCIES:
@@ -102,6 +104,8 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
+  - ViroKit_static_lib (from `../node_modules/react-viro/ios/dist/ViroRenderer/static_lib`)
+  - ViroReact (from `../node_modules/react-viro/ios/`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -149,6 +153,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   React-RCTWebSocket:
     :path: "../node_modules/react-native/Libraries/WebSocket"
+  ViroKit_static_lib:
+    :path: "../node_modules/react-viro/ios/dist/ViroRenderer/static_lib"
+  ViroReact:
+    :path: "../node_modules/react-viro/ios/"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -174,8 +182,10 @@ SPEC CHECKSUMS:
   React-RCTText: d91537e29e38dc69cf09cbca0875cf5dc7402da6
   React-RCTVibration: 7655d72dfb919dd6d8e135ca108a5a2bd9fcd7b4
   React-RCTWebSocket: 7cd2c8d0f8ddd680dc76404defba7ab1f56b83af
+  ViroKit_static_lib: ae9c112ac4b128f8d4466fc581c7b07a0264754d
+  ViroReact: 7ec32276dcd1883662b4587eaedfff67f7fc3625
   yoga: 5079887aa3e4c62142d6bcee493022643ee4d730
 
-PODFILE CHECKSUM: 2b0ef30483190dfdfedd4d760fe0a1dd2d89f65d
+PODFILE CHECKSUM: 439a798bb45ba1ec9f49920b7fd5304b2b20e595
 
 COCOAPODS: 1.8.4
